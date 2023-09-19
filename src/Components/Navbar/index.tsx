@@ -1,3 +1,6 @@
+import DesktopToolbar from "./DesktopToolbar";
+import Drawer from "./Drawer";
+
 const navbarLinks = ["home", "services", "our works", "clients", "contact"];
 
 const Navbar = () => {
@@ -9,15 +12,9 @@ const Navbar = () => {
         </a>
       </div>
 
-      <ul className="flex items-center text-2xl font-medium gap-x-14">
-        {navbarLinks.map((link) => (
-          <li key={link}>
-            <a href="#" className="capitalize">
-              {link}
-            </a>
-          </li>
-        ))}
-      </ul>
+      <DesktopToolbar links={navbarLinks} />
+
+      <Drawer links={navbarLinks} />
     </nav>
   );
 };
