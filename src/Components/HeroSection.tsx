@@ -3,7 +3,7 @@ import heroImage from "../assets/images/heroImage.jpg";
 const HeroSection = () => {
   return (
     <section className="flex flex-col gap-y-11">
-      <div className="flex flex-col gap-y-4 ml-56">
+      <div className="flex flex-col ml-56 gap-y-4">
         <p className="text-[#2D9CDB] font-medium text-lg">
           Unhappy with your website?
         </p>
@@ -33,11 +33,15 @@ const HeroSection = () => {
         <div className="flex flex-col gap-y-2">
           <p>Want us to contact you?</p>
 
-          <form className="flex items-center relative overflow-hidden">
+          <form
+            className="relative flex items-center overflow-hidden"
+            onSubmit={(event) => event?.preventDefault()}
+          >
             <input
+              required
               type="email"
-              name=""
-              id=""
+              name="email"
+              id="email"
               className="bg-[#F2F2F2] rounded-xl py-4 pl-5 w-full"
               placeholder="Email"
             />
