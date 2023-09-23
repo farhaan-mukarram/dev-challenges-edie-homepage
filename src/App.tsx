@@ -1,6 +1,6 @@
-import Container from "./temp/Container";
-import Main from "./temp/Main";
-import Navbar from "./temp/Navbar";
+import Container from "./components/Container";
+import Main from "./components/Main";
+import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
