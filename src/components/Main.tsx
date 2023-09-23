@@ -1,9 +1,11 @@
 import HeroSection from "./HeroSection";
+import ServicesSection from "./ServicesSection";
 
 const Main = () => {
   return (
-    <main className="px-12 min-h-screen pt-28">
+    <main className="flex flex-col min-h-screen px-12 pt-28 gap-y-52">
       <HeroSection />
+      <ServicesSection />
     </main>
   );
 };
