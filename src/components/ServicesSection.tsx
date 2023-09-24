@@ -37,7 +37,10 @@ const ServicesSection = () => {
       <div className="flex items-center justify-between">
         {cardItems.map(
           ({ icon: { backgroundFill, alt, image }, title, description }) => (
-            <div key={title} className="px-8 py-11 rounded-3xl">
+            <div
+              key={title}
+              className="px-8 py-11 rounded-3xl hover:cursor-pointer hover:shadow-[0_10px_30px_-0_rgba(51,51,51,0.1)] group"
+            >
               <div className="flex flex-col">
                 <div
                   className={`mb-9 w-16 h-16 flex flex-col items-center justify-center rounded-2xl`}
@@ -54,7 +57,7 @@ const ServicesSection = () => {
                   {description}
                 </p>
 
-                <button className="px-4 py-3 bg-[#E0E0E0] font-medium text-[#828282] w-max rounded-xl">
+                <button className="px-4 py-3 bg-[#E0E0E0] font-medium text-[#828282] w-max rounded-xl group-hover:bg-[#2D9CDB] group-hover:text-white">
                   Get Started
                 </button>
               </div>
