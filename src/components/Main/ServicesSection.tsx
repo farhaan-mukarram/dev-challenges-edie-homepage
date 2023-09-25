@@ -1,6 +1,6 @@
-import codeIcon from "../assets/icons/code.svg";
-import pencilIcon from "../assets/icons/edit.svg";
-import storageIcon from "../assets/icons/storage.svg";
+import codeIcon from "../../assets/icons/code.svg";
+import pencilIcon from "../../assets/icons/edit.svg";
+import storageIcon from "../../assets/icons/storage.svg";
 
 const cardItems = [
   {
