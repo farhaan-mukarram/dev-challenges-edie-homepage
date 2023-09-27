@@ -40,7 +40,10 @@ const PortfolioSection = () => {
       {/* Projects grid */}
       <div className="flex flex-wrap gap-x-5 gap-y-36">
         {portFolioItems.map(({ image, title, subtitle, alt }) => (
-          <div className="flex flex-col basis-1/2 max-w-[34rem] [&:nth-of-type(odd)]:relative [&:nth-of-type(odd)]:top-40 space-y-8">
+          <div
+            key={title}
+            className="flex flex-col basis-1/2 max-w-[34rem] [&:nth-of-type(odd)]:relative [&:nth-of-type(odd)]:top-40 space-y-8"
+          >
             <img src={image} alt={alt} className="rounded-3xl" />
 
             <div className="flex flex-col space-y-3">
