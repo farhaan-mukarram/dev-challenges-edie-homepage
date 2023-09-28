@@ -38,21 +38,28 @@ const PortfolioSection = () => {
       </h3>
 
       {/* Projects grid */}
-      <div className="flex flex-wrap gap-x-5 gap-y-36">
-        {portFolioItems.map(({ image, title, subtitle, alt }) => (
-          <div
-            key={title}
-            className="flex flex-col basis-1/2 max-w-[34rem] [&:nth-of-type(odd)]:relative [&:nth-of-type(odd)]:top-40 space-y-8"
-          >
-            <img src={image} alt={alt} className="rounded-3xl" />
+      <div className="flex flex-col pb-[400px]">
+        <div className="flex flex-wrap gap-x-5 gap-y-36">
+          {portFolioItems.map(({ image, title, subtitle, alt }) => (
+            <div
+              key={title}
+              className="flex flex-col basis-1/2 max-w-[34rem] [&:nth-of-type(odd)]:relative [&:nth-of-type(odd)]:top-40 space-y-8"
+            >
+              <img src={image} alt={alt} className="rounded-3xl" />
 
-            <div className="flex flex-col space-y-3">
-              <p className="font-light text-sm text-[#828282]">{subtitle}</p>
-              <h4 className="text-2xl font-medium text-[#333333]">{title}</h4>
+              <div className="flex flex-col space-y-3">
+                <p className="font-light text-sm text-[#828282]">{subtitle}</p>
+                <h4 className="text-2xl font-medium text-[#333333]">{title}</h4>
+              </div>
             </div>
-          </div>
-        ))}
-        <div></div>
+          ))}
+        </div>
+
+        <div className="ml-auto bg-red-500">
+          <a href="#" className="text-[#2D9CDB] font-medium text-2xl">
+            See more
+          </a>
+        </div>
       </div>
     </section>
   );
