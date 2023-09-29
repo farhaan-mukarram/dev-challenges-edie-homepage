@@ -39,7 +39,7 @@ const PortfolioSection = () => {
 
       {/* Projects grid */}
       <div className="flex flex-col pb-[400px]">
-        <div className="flex flex-wrap gap-x-5 gap-y-36">
+        <div className="flex flex-wrap justify-between gap-y-36">
           {portFolioItems.map(({ image, title, subtitle, alt }) => (
             <div
               key={title}
@@ -55,7 +55,7 @@ const PortfolioSection = () => {
           ))}
         </div>
 
-        <div className="ml-auto bg-red-500">
+        <div className="ml-auto mt-36">
           <a href="#" className="text-[#2D9CDB] font-medium text-2xl">
             See more
           </a>
