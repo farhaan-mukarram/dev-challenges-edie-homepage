@@ -1,6 +1,7 @@
 import HeroSection from "./HeroSection";
 import PortfolioSection from "./PortfolioSection";
 import ServicesSection from "./ServicesSection";
+import TeamSection from "./TeamSection";
 import TestimonialSection from "./TestimonialSection";
 
 const Main = () => {
@@ -9,7 +10,7 @@ const Main = () => {
       <HeroSection />
       <ServicesSection />
       <PortfolioSection />
-
+      <TeamSection />
       <TestimonialSection />
     </main>
   );
