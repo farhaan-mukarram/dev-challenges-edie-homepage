@@ -1,6 +1,7 @@
 import HeroSection from "./HeroSection";
 import PortfolioSection from "./PortfolioSection";
 import ServicesSection from "./ServicesSection";
+import TestimonialSection from "./TestimonialSection";
 
 const Main = () => {
   return (
@@ -8,6 +9,8 @@ const Main = () => {
       <HeroSection />
       <ServicesSection />
       <PortfolioSection />
+
+      <TestimonialSection />
     </main>
   );
 };
