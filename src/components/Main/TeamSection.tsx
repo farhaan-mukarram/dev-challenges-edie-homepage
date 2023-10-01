@@ -16,17 +16,21 @@ const TeamSection = () => {
       </div>
 
       <div className="flex items-center gap-x-6">
-        <img src={teamMember1Image} alt="" className="w-64 h-64 rounded-3xl" />
+        <img
+          src={teamMember1Image}
+          alt="team member 1 image"
+          className="w-64 h-64 rounded-3xl"
+        />
 
         <div className="flex flex-col gap-y-6">
           <img
             src={teamMember2Image}
-            alt=""
+            alt="team member 2 image"
             className="w-64 h-64 rounded-3xl"
           />
           <img
             src={teamMember3Image}
-            alt=""
+            alt="team member 3 image"
             className="w-64 h-64 rounded-3xl"
           />
         </div>
