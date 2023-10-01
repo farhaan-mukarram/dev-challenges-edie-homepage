@@ -4,7 +4,7 @@ const TestimonialSection = () => {
   return (
     <section className="flex flex-col space-y-11 max-w-[60rem]">
       <h3 className="font-medium text-4xl text-[#333333]">
-        "Fast and outstanding resutls. Edie understands their customer’s needs.
+        "Fast and outstanding results. Edie understands their customer’s needs.
         They have a young and talented team."
       </h3>
 
