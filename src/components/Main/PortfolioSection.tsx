@@ -1,3 +1,5 @@
+import rightArrow from "../../assets/icons/arrow.svg";
+
 import bookingSystemImage from "../../assets/images/booking.png";
 import juiceProductImage from "../../assets/images/juice-product.png";
 import smartHomeImage from "../../assets/images/smarthome.jpg";
@@ -56,8 +58,12 @@ const PortfolioSection = () => {
         </div>
 
         <div className="ml-auto mt-36">
-          <a href="#" className="text-[#2D9CDB] font-medium text-2xl">
-            See more
+          <a
+            href="#"
+            className="text-[#2D9CDB] font-medium text-2xl flex items-center hover:underline"
+          >
+            see more
+            <img src={rightArrow} alt="see more arrow icon" className="ml-3" />
           </a>
         </div>
       </div>
