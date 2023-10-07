@@ -31,7 +31,7 @@ const HeroSection = () => {
           strategic goals in short period of time.
         </p>
 
-        <ContactForm />
+        <ContactForm textColor="text-[#828282]" />
       </div>
     </section>
   );

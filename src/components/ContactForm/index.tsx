@@ -1,7 +1,12 @@
-const ContactForm = () => {
+import { FunctionComponent } from "react";
+
+interface Props {
+  textColor?: string;
+}
+const ContactForm: FunctionComponent<Props> = ({ textColor }) => {
   return (
     <div className="flex flex-col gap-y-2">
-      <p className="text-white">Want us to contact you?</p>
+      <p className={`${textColor ?? "text-white"}`}>Want us to contact you?</p>
 
       <form
         className="relative flex items-center overflow-hidden"
