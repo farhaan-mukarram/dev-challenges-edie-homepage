@@ -16,7 +16,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#100E1D] mt-52">
       <div className="flex flex-col p-12 mx-auto max-w-7xl space-y-28">
-        <div className="flex justify-between">
+        <div className="flex flex-col justify-between lg:flex-row gap-y-16">
           <nav>
             <ul className="flex flex-col space-y-4 text-white">
               {footerNavLinks.map((link) => (
