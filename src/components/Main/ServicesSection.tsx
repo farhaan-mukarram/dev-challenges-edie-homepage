@@ -30,11 +30,11 @@ const cardItems = [
 const ServicesSection = () => {
   return (
     <section className="flex flex-col gap-y-11">
-      <h3 className="text-4xl font-medium max-w-[22rem]">
+      <h3 className="text-2xl lg:text-4xl font-medium max-w-[22rem]">
         We offer high demand services
       </h3>
 
-      <div className="flex items-center justify-between">
+      <div className="flex flex-col items-center gap-y-[4.5rem] justify-between lg:flex-row">
         {cardItems.map(
           ({ icon: { backgroundFill, alt, image }, title, description }) => (
             <div

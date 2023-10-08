@@ -34,33 +34,37 @@ const portFolioItems = [
 
 const PortfolioSection = () => {
   return (
-    <section className="flex flex-col space-y-3">
-      <h3 className="max-w-md text-4xl font-medium">
+    <section className="flex flex-col gap-y-11 lg:gap-y-3">
+      <h3 className="font-medium max-w-[17rem] lg:max-w-md text-2-xl lg:text-4xl mx-auto">
         Good design means good business
       </h3>
 
       {/* Projects grid */}
-      <div className="flex flex-col pb-[400px]">
-        <div className="flex flex-wrap justify-between gap-y-36">
+      <div className="flex flex-col">
+        <div className="flex flex-col justify-between lg:flex-row lg:flex-wrap gap-y-9 lg:gap-y-36">
           {portFolioItems.map(({ image, title, subtitle, alt }) => (
             <div
               key={title}
-              className="flex flex-col basis-1/2 max-w-[34rem] [&:nth-of-type(odd)]:relative [&:nth-of-type(odd)]:top-40 space-y-8"
+              className="flex flex-col lg:basis-1/2 lg:max-w-[34rem] lg:[&:nth-of-type(odd)]:relative lg:[&:nth-of-type(odd)]:top-40 gap-y-3 lg:gap-y-8"
             >
               <img src={image} alt={alt} className="rounded-3xl" />
 
-              <div className="flex flex-col space-y-3">
-                <p className="font-light text-sm text-[#828282]">{subtitle}</p>
-                <h4 className="text-2xl font-medium text-[#333333]">{title}</h4>
+              <div className="flex flex-col gap-y-1 lg:gap-y-3">
+                <p className="font-light text-xs lg:text-sm text-[#828282]">
+                  {subtitle}
+                </p>
+                <h4 className="text-lg lg:text-2xl font-medium text-[#333333]">
+                  {title}
+                </h4>
               </div>
             </div>
           ))}
         </div>
 
-        <div className="ml-auto mt-36">
+        <div className="mt-9 lg:ml-auto lg:mt-36">
           <a
             href="#"
-            className="text-[#2D9CDB] font-medium text-2xl flex items-center hover:underline"
+            className="text-[#2D9CDB] font-medium text-lg lg:text-2xl flex items-center hover:underline"
           >
             see more
             <img src={rightArrow} alt="see more arrow icon" className="ml-3" />

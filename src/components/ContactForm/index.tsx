@@ -6,7 +6,9 @@ interface Props {
 const ContactForm: FunctionComponent<Props> = ({ textColor }) => {
   return (
     <div className="flex flex-col gap-y-2">
-      <p className={`${textColor ?? "text-white"}`}>Want us to contact you?</p>
+      <p className={`${textColor ?? "text-white"} text-[0.625rem] lg:text-sm`}>
+        Want us to contact you?
+      </p>
 
       <form
         className="relative flex items-center overflow-hidden"

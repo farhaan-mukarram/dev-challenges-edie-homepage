@@ -6,7 +6,7 @@ import TestimonialSection from "./TestimonialSection";
 
 const Main = () => {
   return (
-    <main className="flex flex-col min-h-screen px-12 pt-28 gap-y-52">
+    <main className="flex flex-col min-h-screen px-3 lg:px-12 lg:pt-28 gap-y-28 lg:gap-y-52">
       <HeroSection />
       <ServicesSection />
       <PortfolioSection />
