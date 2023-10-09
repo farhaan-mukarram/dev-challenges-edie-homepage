@@ -1,27 +1,55 @@
-# React + TypeScript + Vite
+<h1 align="center">Edie Homepage</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center">
+   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
+</div>
 
-Currently, two official plugins are available:
+<div align="center">
+  <h3>
+    <a href="https://edie-homepage-by-farhaan.netlify.app/">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="https://github.com/farhaan-mukarram/dev-challenges-edie-homepage">
+      Solution
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/challenges/xobQBuf8zWWmiYMIAZe0">
+      Challenge
+    </a>
+  </h3>
+</div>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
 
-## Expanding the ESLint configuration
+- [Overview](#overview)
+  - [Built With](#built-with)
+- [Features](#features)
+- [Contact](#contact)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<!-- OVERVIEW -->
 
-- Configure the top-level `parserOptions` property like this:
+## Overview
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+![Screenshot](https://github.com/farhaan-mukarram/dev-challenges-edie-homepage/assets/45497935/0575f93d-9b6f-4df1-ab27-307f16ee0a87)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+This repo contains my solution for the [Edie Homepage Challenge by DevChallenges](https://devchallenges.io/challenges/xobQBuf8zWWmiYMIAZe0"). The demo can be seen [here](https://edie-homepage-by-farhaan.netlify.app/)
+
+
+
+### Built With
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind](https://tailwindcss.com/)
+
+## Features
+
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/xobQBuf8zWWmiYMIAZe0) was to build an application to complete the given user stories.
+
+
+## Contact
+
+- GitHub [@farhaan-mukarram](https://github.com/farhaan-mukarram/)
+- LinkedIn [farhaan-mukarram](https://www.linkedin.com/in/farhaan-mukarram/)
